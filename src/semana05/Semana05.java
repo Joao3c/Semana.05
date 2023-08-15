@@ -1,21 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package semana05;
 
-/**
- *
- * @author joao_silva12
- */
+import banco.pessoa;
+import java.util.ArrayList;
+
+
+
 public class Semana05 {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+        pessoa pUM = new Pessoa("Gustavo", "999-999");
+pessoa pUM = new Pessoa("Gustavo", "999-999");
+pessoa pUM = new Pessoa("Gustavo", "999-999");
+
+banco.add(new Conta(pUm));
+banco.add(new Conta(pDois));
+banco.add(new Conta(pTres));
+
+
+
+      
+       
+       
     }
     
 }
